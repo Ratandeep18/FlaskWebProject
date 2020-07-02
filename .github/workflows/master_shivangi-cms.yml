@@ -31,4 +31,4 @@ jobs:
       with:
         app-name: 'shivangi-cms'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f2f96f1f4133421e8e46f40e7c8d7926 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c85180f63c5049d88b67ba8dd5826096 }}
