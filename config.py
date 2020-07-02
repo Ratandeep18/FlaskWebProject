@@ -3,11 +3,11 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 class Config(object):
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'I.h_zCUAIP1-nui_DPS~LBPBH7nt~4F52a'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'fIr_8T.7tK62f.9OqWBIX4Ouj74i6u_PBa'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'shivangicms'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'DFR+tT94ZHaEKtGpjw6qDozuTOueR2TAeAI26sXjmySwOILzp0kirC759RSF6onP1HMlZgaGwkHTGvXM+aT1ww=='
-    BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'shivangi-cms'
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'lFDovmCLP7+dyJ4cEpBnYv7X11r/1XZnyo4dCrFpHueNYd986sVnpCVBNrnzw2TH8XElGt8qW9xQ1jtbIwC8Fw=='
+    BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'shivagi-cms'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'shivangi-cms.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'shivangi-cms'
@@ -20,7 +20,7 @@ class Config(object):
 
     ### Info for MS Authentication ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "I.h_zCUAIP1-nui_DPS~LBPBH7nt~4F52a"
+    CLIENT_SECRET = "fIr_8T.7tK62f.9OqWBIX4Ouj74i6u_PBa"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
@@ -31,7 +31,7 @@ class Config(object):
     AUTHORITY = "https://login.microsoftonline.com/ratandeepsharma19gmail.onmicrosoft.com"  # For multi-tenant app, else put tenant name
     # AUTHORITY = "https://login.microsoftonline.com/Enter_the_Tenant_Name_Here"
 
-    CLIENT_ID = "254e0931-a67d-4800-b762-47fe700e49bd"
+    CLIENT_ID = "77aae76b-b39e-4c31-b352-7218cba26792"
 
     REDIRECT_PATH = "/getAToken"  # Used to form an absolute URL; must match to app's redirect_uri set in AAD
 
